@@ -52,6 +52,36 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* ---------- APARTADOS ---------- */
+
+#sobre-mi {
+    max-width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #c6efffaa(123, 196, 255, 0.667);
+    color: #333;
+    border-radius: 0px;
+    position: relative;
+}
+
+.seguir-leyendo {
+    position: absolute;
+    bottom: 20px; /* Espaciado desde el borde inferior */
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+    color: #8a8a8a; /* Color destacado */
+    text-decoration: underline; /* Indica que es interactivo */
+    cursor: pointer; /* Cambia el cursor a pointer al pasar sobre él */
+    transition: color 0.3s ease; /* Suaviza los cambios de color */
+}
+
+.seguir-leyendo:hover {
+    color: #000000; /* Color diferente al pasar el ratón */
+}
+
 #proyectos .proyecto {
     margin-bottom: 1.5rem;
 }
