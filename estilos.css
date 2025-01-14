@@ -6,6 +6,8 @@ body {
     color: #333;
     line-height: 1.6;
     background-color: #f4f4f9;
+    animation: fadeIn 1s ease-in-out;
+
 }
 
 header {
@@ -19,7 +21,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 header nav ul li {
@@ -47,10 +49,16 @@ section {
     border-radius: 8px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #333;
     text-align: center;
 }
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
 
 /* ---------- APARTADOS ---------- */
 
@@ -62,7 +70,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #c6efffaa(123, 196, 255, 0.667);
+    background: #c6efffaa;
     color: #333;
     border-radius: 0px;
     position: relative;
@@ -70,7 +78,7 @@ h1, h2, h3 {
 
 .seguir-leyendo {
     position: absolute;
-    bottom: 20px; /* Espaciado desde el borde inferior */
+    bottom: 60px; /* Espaciado desde el borde inferior */
     font-size: 1rem; /* Ajusta el tamaño del texto */
     color: #8a8a8a; /* Color destacado */
     text-decoration: underline; /* Indica que es interactivo */
@@ -103,7 +111,7 @@ footer p {
 }
 
 /* Botón de contacto */
-section#contacto ul li a {
+section#contacto span a {
     display: inline-block;
     padding: 0.5rem 1rem;
     background: #ff9900;
@@ -113,7 +121,7 @@ section#contacto ul li a {
     transition: background 0.3s ease;
 }
 
-section#contacto ul li a:hover {
+section#contacto span a:hover {
     background: #e68a00;
 }
 
@@ -130,5 +138,15 @@ section#contacto ul li a:hover {
 
     section {
         padding: 1rem;
+    }
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
