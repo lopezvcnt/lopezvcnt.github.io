@@ -1,4 +1,8 @@
 /* Estilos generales */
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -14,7 +18,8 @@ header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-}
+    position: relative;
+} 
 
 header nav ul {
     list-style: none;
@@ -22,6 +27,19 @@ header nav ul {
     justify-content: center;
     margin: 0;
     padding: 10px;
+}
+
+.language-switch {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+.language-switch img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
 }
 
 header nav ul li {
