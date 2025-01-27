@@ -54,7 +54,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff9900;
+    color: #248af0;
 }
 
 section {
@@ -79,6 +79,113 @@ h3 {
 
 
 /* ---------- APARTADOS ---------- */
+
+
+
+/* ---------- BADGE ---------- */
+/* Base */
+* { box-sizing: border-box; }
+
+h5 {
+  color: linen;
+}
+
+p {
+  color: darkgrey;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin: 3em auto;
+  text-align: center;
+}
+
+/* Badge */
+.badge {
+  margin: 1.5em 3em;
+  width: 6.4em;
+  height: 6.4em;
+  border-radius: 20%;
+  display: inline-block;
+  top: 0;
+  transition: all 0.2s ease;
+  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+}
+
+.rounded {
+  width: 70px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  margin: 15px 16px auto;
+  z-index: 10;
+  border-radius: 30%;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
+  
+  i.fab {
+    font-size: 2.6em;
+		margin-top: 16px;
+  }
+}
+
+/* Colors */
+.blue {
+    background: dodgerblue;
+    color: deepskyblue;
+}
+
+.orange {
+  background: darkorange;
+  color: orange;
+}
+
+.gold {
+  background: gold;
+  color: gold;
+}
+
+.red {
+  background: red;
+  color: red;
+}
+
+.purple {
+  background: mediumpurple;
+  color: slategray;
+}
+
+.green {
+  background: yellowgreen;
+  color: darkslategray;
+}
+
+.crimson {
+  background: crimson;
+  color: firebrick;
+}
+
+.steel {
+  background: steelblue;
+  color: gold;
+}
+
+.pink {
+  background: hotpink;
+  color: palevioletred;
+}
+
+.rebecca {
+  background: rebeccapurple;
+  color: rebeccapurple;
+}
+
+.gainsboro {
+  background: gainsboro;
+  color: orangered;
+}
+
 
 #sobre-mi {
     max-width: 100%;
@@ -113,7 +220,7 @@ h3 {
 }
 
 #proyectos .proyecto h3 {
-    color: #ff9900;
+    color: #0a66c2;
 }
 
 footer {
@@ -136,7 +243,7 @@ footer p {
 section#contacto span a {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background: #ff9900;
+    background: #0a66c2;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -144,7 +251,7 @@ section#contacto span a {
 }
 
 section#contacto span a:hover {
-    background: #e68a00;
+    background: #248af0;
 }
 
 /* Ajuste responsive */
