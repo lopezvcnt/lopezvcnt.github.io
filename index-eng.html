@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio of Vicente López</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -34,16 +35,77 @@
         <a class="seguir-leyendo" href="#habilidades">Read more</a>
     </section>
     
-    <section id="habilidades">
-        <h2>Skills</h2>
-        <ul>
-            <li><b>Programming languages:</b> HTML, CSS, Java, JavaScript, Python</li>
-            <li><b>Frameworks:</b> Angular</li>
-            <li><b>Database management:</b> MySQL, HeidiSQL</li>
-            <li><b>IDE:</b> VS Code, VS, Eclipse, IntelliJ</li>
-            <li><b>IT tools:</b> Git, Docker, Node-red, Rocketbot</li>
-            <li><b>Other tools:</b> Trello, Jira, Odoo, Slack, VMWare, Action1, Jaspersoft</li>
-        </ul>
+    <section id="habilidades" style="max-width: 1000px;">
+        <h2>Habilidades</h2>
+        <div class="wrapper">
+          <!-- FIRST ROW -->
+            <article class="badge gold">
+              <div class="rounded" onclick="window.open('https://es.wikipedia.org/wiki/JavaScript', '_blank')"><i class="fab fa-js-square"></i></div>
+            </article>
+            <article class="badge orange">
+              <div class="rounded" onclick="window.open('https://es.wikipedia.org/wiki/HTML5', '_blank')"><i class="fab fa-html5"></i></div>
+            </article>
+            <article class="badge steel">
+              <div class="rounded" onclick="window.open('https://www.python.org/', '_blank')">
+                <img src="assets/images/python-logo.png" alt="Python" style="max-width: 125%; padding-top: 15%; margin-left: -7px"></div>
+            </article>
+            <article class="badge gainsboro">
+              <div class="rounded" onclick="window.open('https://www.java.com/en/', '_blank')"><i class="fab fa-java"></i></div>
+            </article>
+            <!-- SECOND ROW -->
+            <article class="badge blue">
+                <div class="rounded" onclick="window.open('https://developer.mozilla.org/en-US/docs/Web/CSS', '_blank')"><i class="fab fa-css3-alt"></i></div>
+            </article>
+            <article class="badge red">
+              <div class="rounded" onclick="window.open('https://angular.dev/', '_blank')"><i class="fab fa-angular"></i></div>
+            </article>
+            <article class="badge cadetblue">
+              <div class="rounded" onclick="window.open('https://www.mysql.com/', '_blank')">
+                <img src="assets/images/mysql-logo.png" alt="MySQL" style="max-width: -webkit-fill-available; padding-top: 5%"></div>
+            </article>
+            <article class="badge green" style="background: #4ab700">
+              <div class="rounded" onclick="window.open('https://www.heidisql.com/', '_blank')">
+                <img src="assets/images/heidisql-logo.png" alt="HeidiSQL" style="max-width: 75%; padding-top: 13%; padding-left: 2%"></div>
+            </article>
+            <!-- THIRD ROW -->
+            <article class="badge blue">
+              <div class="rounded" onclick="window.open('https://www.docker.com/', '_blank')"><i class="fab fa-docker"></i></div>
+            </article>
+            <article class="badge" style="background: #900001;">
+              <div class="rounded" onclick="window.open('https://nodered.org/', '_blank')">
+                <img src="assets/images/node-red-logo.webp" alt="Node-red" style="max-width: 90%; padding-top: 15%; padding-left: 1%"></div>
+            </article>
+            <article class="badge" style="background: #d1170d;">
+              <div class="rounded" onclick="window.open('https://rocketbot.com/en/', '_blank')">
+                <img src="assets/images/rocketbot-logo.png" alt="Rocketbot" style="max-width: 150%; padding-top: 9%; margin-left: -16px"></div>
+            </article>
+            <article class="badge" style="background: #3c99d4;">
+              <div class="rounded" onclick="window.open('https://code.visualstudio.com/', '_blank')">
+                <img src="assets/images/visual-studio-code-logo.png" alt="VSC" style="max-width: 80%; padding-top: 9%"></div>
+            </article>
+            <!-- FORTH ROW -->
+            <article class="badge" style="background: #a778de;">
+              <div class="rounded" onclick="window.open('https://visualstudio.microsoft.com/', '_blank')">
+                <img src="assets/images/visual-studio-logo.png" alt="VS" style="max-width: 85%; padding-top: 12%"></div>
+            </article>
+            <article class="badge" style="background: #4a3e7d;">
+              <div class="rounded" onclick="window.open('https://eclipseide.org/', '_blank')">
+                <img src="assets/images/eclipse-logo.png" alt="Eclipse" style="max-width: 80%; padding-top: 12%"></div>
+            </article>
+            <article class="badge" style="background: #5862c5;">
+              <div class="rounded" onclick="window.open('https://www.jetbrains.com/idea/', '_blank')">
+                <img src="assets/images/intellij-logo.png" alt="IntelliJ" style="max-width: 75%; padding-top: 12%"></div>
+            </article>
+            <h3>Other tools: </h3>
+            <p>
+              <a href="https://trello.com/" target="_blank">Trello</a>, 
+              <a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>,
+              <a href="https://www.odoo.com" target="_blank">Odoo</a>, 
+              <a href="https://slack.com/intl/en-gb/" target="_blank">Slack</a>, 
+              <a href="https://www.action1.com/" target="_blank">Action1</a>, 
+              <a href="https://www.jaspersoft.com/products/jaspersoft-community" target="_blank">Jaspersoft</a>
+            </p>
+        </div>    
     </section>
     
     <section id="proyectos">
@@ -58,7 +120,7 @@
         </div>
     </section>
     
-    <section id="contacto">
+    <section id="contacto" style="max-width: 600px;">
         <h2>Contact</h2>
         <p>If you are interested in my work, contact me!
         </p>

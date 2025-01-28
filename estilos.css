@@ -115,6 +115,7 @@ p {
 }
 
 .rounded {
+  cursor: pointer; /* Cambia el cursor al de un enlace */
   width: 70px;
   height: 70px;
   background: white;
@@ -123,11 +124,15 @@ p {
   z-index: 10;
   border-radius: 30%;
   box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
-  
+  transition: transform 0.2s ease;
   i.fab {
     font-size: 2.6em;
 		margin-top: 16px;
   }
+}
+
+.rounded:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
 }
 
 /* Colors */
@@ -154,6 +159,11 @@ p {
 .purple {
   background: mediumpurple;
   color: slategray;
+}
+
+.cadetblue {
+  background: cadetblue;
+  color: cadetblue;
 }
 
 .green {
